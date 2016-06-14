@@ -1,0 +1,3 @@
+---
+- name: create file
+  copy: dest=/tmp/testfile content="Test file $HOSTNAME" 
